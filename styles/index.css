@@ -9,3 +9,15 @@
 }
 
 /* FONT-FAMILY STYLES END */
+
+/* CSS RESET STYLES START */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+/* CSS RESET STYLES END */
