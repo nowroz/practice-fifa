@@ -77,4 +77,8 @@ img {
   cursor: pointer;
 }
 
+#banner-img {
+  width: 50%;
+}
+
 /* BANNER SECTION STYLES END */
