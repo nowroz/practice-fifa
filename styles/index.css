@@ -10,6 +10,11 @@
 
 /* FONT-FAMILY STYLES END */
 
+:root {
+  --color-primary: #dd0000;
+  --color-background-primary: #161616;
+}
+
 /* CSS RESET STYLES START */
 * {
   margin: 0;
@@ -21,3 +26,55 @@ img {
   display: block;
 }
 /* CSS RESET STYLES END */
+
+/* UTILITY STYLES START */
+.container-max {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* UTILITY STYLES END */
+
+/* BANNER SECTION STYLES START */
+#banner {
+  display: flex;
+  background-color: var(--color-background-primary);
+  border-radius: 30px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5.125rem;
+  padding: 2rem 1rem 0 7.75rem;
+  margin: 80px auto 100px;
+}
+
+#banner-content {
+  width: 40%;
+}
+
+#banner-title {
+  color: white;
+  font-size: 4.375rem;
+  font-weight: bold;
+  line-height: 5rem;
+  margin-bottom: 1.25rem;
+}
+
+#banner-description {
+  color: white;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.625rem;
+  margin-bottom: 1.875rem;
+}
+
+#banner-btn {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+  background-color: var(--color-primary);
+  padding: 1rem 1.5625rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* BANNER SECTION STYLES END */
