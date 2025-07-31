@@ -34,6 +34,12 @@ img {
 }
 /* UTILITY STYLES END */
 
+/* MAIN STYLES START */
+main {
+  padding: 0 1rem;
+}
+/* MAIN STYLES END */
+
 /* BANNER SECTION STYLES START */
 #banner {
   display: flex;
@@ -43,7 +49,7 @@ img {
   align-items: center;
   gap: 5.125rem;
   padding: 2rem 1rem 0 7.75rem;
-  margin: 80px auto 100px;
+  margin: 5rem auto 6.25rem;
 }
 
 #banner-content {
@@ -77,8 +83,62 @@ img {
   cursor: pointer;
 }
 
-#banner-img {
+#banner-img-container {
   width: 50%;
 }
 
+#banner-img {
+  width: 100%;
+  height: auto;
+}
+
 /* BANNER SECTION STYLES END */
+
+/* RESPONSIVE LAYOUT STYLES START */
+/* smaller devices */
+@media screen and (max-width: 576px) {
+  #banner {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.3125rem;
+    margin: 2.75rem auto 1.5rem;
+    padding: 0;
+  }
+
+  #banner-content {
+    width: 100%;
+    text-align: center;
+    padding: 1.75rem 2.375rem 0;
+  }
+
+  #banner-title {
+    font-size: 1.375rem;
+    line-height: normal;
+  }
+
+  #banner-description {
+    font-size: 0.875rem;
+  }
+
+  #banner-description-second-line {
+    display: none;
+  }
+
+  #banner-btn {
+    padding: 0.5rem 0.75rem;
+  }
+
+  #banner-img-container {
+    width: 100%;
+    display: grid;
+    justify-items: end;
+    padding: 0 1rem;
+  }
+
+  #banner-img {
+    width: 90%;
+    height: auto;
+    min-width: 233px;
+  }
+}
+/* RESPONSIVE LAYOUT STYLES END */
