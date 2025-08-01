@@ -104,7 +104,7 @@ main {
 
 /* RESPONSIVE LAYOUT STYLES START */
 /* large devices */
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
   #banner-content {
     /* border: 1px solid white; */
     margin-left: 5rem;
