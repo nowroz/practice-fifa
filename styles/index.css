@@ -51,14 +51,13 @@ main {
   background-color: var(--color-background-primary);
   border-radius: 30px;
   justify-content: space-between;
-  align-items: center;
-  gap: 5.125rem;
-  padding: 2rem 1rem 0 7.75rem;
   margin: 5rem auto 6.25rem;
 }
 
 #banner-content {
   width: 40%;
+  align-self: center;
+  margin-left: 10rem;
 }
 
 #banner-title {
@@ -89,7 +88,11 @@ main {
 }
 
 #banner-img-container {
-  width: 50%;
+  width: 40%;
+  padding-top: 2rem;
+  padding-right: 1rem;
+  align-self: flex-end;
+  /* border: 1px solid white; */
 }
 
 #banner-img {
@@ -98,97 +101,3 @@ main {
 }
 
 /* BANNER SECTION STYLES END */
-
-/* RESPONSIVE LAYOUT STYLES START */
-/* smaller devices */
-@media screen and (max-width: 576px) {
-  #banner {
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.3125rem;
-    margin: 2.75rem auto 1.5rem;
-    padding: 0;
-  }
-
-  #banner-content {
-    width: 100%;
-    text-align: center;
-    padding: 1.75rem 2.375rem 0;
-  }
-
-  #banner-title {
-    font-size: 1.375rem;
-    line-height: normal;
-  }
-
-  #banner-title-br {
-    display: none;
-  }
-
-  #banner-description {
-    font-size: 0.875rem;
-  }
-
-  #banner-description-second-line {
-    display: none;
-  }
-
-  #banner-btn {
-    padding: 0.5rem 0.75rem;
-  }
-
-  #banner-img-container {
-    width: 100%;
-    display: grid;
-    justify-items: end;
-    padding: 0 1rem;
-  }
-
-  #banner-img {
-    width: 90%;
-    height: auto;
-    min-width: 233px;
-  }
-}
-
-/* medium devices */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  #banner {
-    padding: 0;
-    align-items: center;
-    gap: 0;
-    margin: 3.125rem auto 4.375rem;
-  }
-
-  #banner-content {
-    width: 50%;
-    padding: 3.75rem 0 4.75rem 3.75rem;
-  }
-
-  #banner-title {
-    font-size: 2.5rem;
-    line-height: 3.125rem;
-    margin-bottom: 0.625rem;
-  }
-
-  #banner-description {
-    font-size: 0.875rem;
-    line-height: 1.5rem;
-    margin-bottom: 1.25rem;
-  }
-
-  #banner-description-second-line {
-    display: none;
-  }
-
-  #banner-btn {
-    padding: 0.75rem;
-  }
-
-  #banner-img-container {
-    width: 50%;
-    align-self: end;
-    padding-top: 1rem;
-  }
-}
-/* RESPONSIVE LAYOUT STYLES END */
