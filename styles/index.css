@@ -165,6 +165,45 @@ main {
   }
 }
 
+/* small devices */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #banner {
+    flex-direction: column;
+    margin: 2.75rem auto 2.5rem;
+  }
+
+  #banner-content {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  #banner-title {
+    font-size: 3rem;
+    line-height: normal;
+    margin-bottom: 0.5rem;
+  }
+
+  #banner-title-br {
+    display: none;
+  }
+
+  #banner-description {
+    padding: 0 4rem;
+  }
+
+  #banner-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #banner-img {
+    width: 80%;
+  }
+}
+
 /* extra small devices */
 @media screen and (max-width: 575px) {
   #banner {
