@@ -135,4 +135,33 @@ main {
     padding: 0.75rem 1rem;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #banner-content {
+    margin-left: 5rem;
+  }
+  #banner-title {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    margin-bottom: 0.625rem;
+  }
+
+  #banner-desciption {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  #banner-description-second-line {
+    display: none;
+  }
+
+  #banner-img-container {
+    width: 50%;
+  }
+
+  #banner-btn {
+    padding: 0.75rem 0.875rem;
+  }
+}
 /* RESPONSIVE LAYOUT STYLES END */
